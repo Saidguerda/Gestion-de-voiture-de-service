@@ -25,4 +25,11 @@ class Employee:
             print(f"le chauffeur posséde la voiture : {self.voitureService.matricule}")
         else:
             print("il n'a pas de voiture pour le moment")
+class Voiture:
+    def __init__(self,matricule,annee,marque,kilometrage):
+        self.matricule=matricule
+        self.annee=annee
+        self.marque=marque
+        self.kilometrage=kilometrage
+        self.chauffeur=None
 
