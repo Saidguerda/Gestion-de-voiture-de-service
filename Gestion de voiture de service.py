@@ -32,4 +32,10 @@ class Voiture:
         self.marque=marque
         self.kilometrage=kilometrage
         self.chauffeur=None
+    def afficherInformations(self):
+        print(f"la voiture est immatriculer:{self.matricule}annee: {self.annee} marque: {self.marque}kilometrage: {self.kilometrage}")
+        if self.chauffeur!=None:
+            print(f"son chauffeur est : {self.chauffeur.nom}")
+        else:
+            print("elle n'a pas de chauffeur pour le moment")
 
