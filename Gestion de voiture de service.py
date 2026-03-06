@@ -40,5 +40,7 @@ class Voiture:
             print("elle n'a pas de chauffeur pour le moment")
 em1= Employee("1233","guerda","said")
 em2= Employee("1433","adi","amine")
+v1= Voiture ("abc123",2020,"toyota",5000)
+v2= Voiture ("arc143",2021,"honda",44000)
 
 
