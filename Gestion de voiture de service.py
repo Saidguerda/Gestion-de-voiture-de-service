@@ -19,5 +19,10 @@ class Employee:
             self.voitureService=None
         else:
             print("la voiture est dija libre")
-
+    def afficherInformations(self):
+        print(f"l'employee {self.nom}  {self.prenom} qui contient numéro de permis{self.NumPermis} ")
+        if self.voitureService!=None:
+            print(f"le chauffeur posséde la voiture : {self.voitureService.matricule}")
+        else:
+            print("il n'a pas de voiture pour le moment")
 
