@@ -49,5 +49,8 @@ em1.afficherInformations()
 em2.afficherInformations()
 v1.afficherInformations()
 v2.afficherInformations()
+em1.retirer_voiture()
+em1.afficherInformations()
+v1.afficherInformations()
 
 
