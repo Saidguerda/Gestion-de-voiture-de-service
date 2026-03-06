@@ -38,4 +38,7 @@ class Voiture:
             print(f"son chauffeur est : {self.chauffeur.nom}")
         else:
             print("elle n'a pas de chauffeur pour le moment")
+em1= Employee("1233","guerda","said")
+em2= Employee("1433","adi","amine")
+
 
