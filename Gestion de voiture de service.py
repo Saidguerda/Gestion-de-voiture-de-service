@@ -45,4 +45,9 @@ v2= Voiture ("arc143",2021,"honda",44000)
 em1.affecter_voiture(v1)
 em2.affecter_voiture(v2)
 em1.affecter_voiture(v2)
+em1.afficherInformations()
+em2.afficherInformations()
+v1.afficherInformations()
+v2.afficherInformations()
+
 
