@@ -13,3 +13,11 @@ class Employee:
                 print("la voiture contienne déja un chauffeur")
         else:
             print("le chaufeur a déja une voiture de service")
+    def retirer_voiture(self):
+        if self.voitureService!=None:
+            self.voitureService.chauffeur=None
+            self.voitureService=None
+        else:
+            print("la voiture est dija libre")
+
+
